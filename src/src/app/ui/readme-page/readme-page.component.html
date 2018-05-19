@@ -1,0 +1,61 @@
+
+
+<h1>Welcome to Curry Up!</h1>
+  
+
+<p>I can give a healthy food to you and your family.</p>
+<div class="container">
+ <img src="assets/images/angularfirebase.png" width="300px" height="auto"alt="Firestarter Angular4 Demo App"/>
+  <span class="btn">
+<a class="nav-item" routerLink="/notes">
+      Curry 
+    </a>
+  </span>
+  </div>
+  <br>
+
+    <div class="container">
+ <img src="assets/images/angularfirebase.png" width="300px" height="auto"alt="Firestarter Angular4 Demo App"/>
+  <span class="btn">
+<a class="nav-item" routerLink="/uploads">
+      Offers
+    </a>
+  </span>
+  </div>
+<br>
+
+  <div class="container">
+ <img src="assets/images/angularfirebase.png" width="300px" height="auto"alt="Firestarter Angular4 Demo App"/>
+  <span class="btn">
+ <a class="nav-item" routerLink="/items">
+      Check Out
+    </a>
+     
+  </span>
+  </div>
+      <router-outlet></router-outlet>
+<!-- <h2>what is curry up about?</h2>
+
+<p>
+  <i class="fa fa-slack fa-lg"></i> lets see what is <a target="blank" href="https://www.google.com/search?q=chicken&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi4r8fc3fbaAhXDhOAKHSjcBMoQ_AUoAXoECAAQAw&biw=1536&bih=710">
+  Curry Up
+</a>
+</p>
+
+<!-- <h2>Curry up Products?</h2> -->
+
+<!-- <p>
+  <i class="fa fa-slack fa-lg"></i> lets have a loot at <a target="blank" href="https://www.google.com/search?q=chicken&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi4r8fc3fbaAhXDhOAKHSjcBMoQ_AUoAXoECAAQAw&biw=1536&bih=710">
+  Curry Up Products
+</a>
+</p> --> 
+<div class="wrapper">
+    <div class="carousel">
+        <ul class="slides">
+            <li *ngFor="let image of images">
+            <h2>{{image.title}}</h2>
+            <img src="{{image.url}}" alt="">
+            </li>
+        </ul>
+    </div>
+</div>
