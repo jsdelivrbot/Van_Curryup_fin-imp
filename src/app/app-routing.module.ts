@@ -6,7 +6,6 @@ import { ItemsListComponent } from './items/items-list/items-list.component';
 import { ReadmePageComponent } from './ui/readme-page/readme-page.component';
 import { NotesListComponent } from './notes/notes-list/notes-list.component';
 import { FaqComponent } from './faq/faq.component';
-import { NewsComponent } from './news/news.component';
 import { ProcessComponent } from './process/process.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { StorelocatorComponent } from './storelocator/storelocator.component';
@@ -18,7 +17,6 @@ const routes: Routes = [
   { path: 'login', component: UserLoginComponent },
   { path: 'aboutus', component: AboutusComponent },
   { path: 'contactus', component: ContactusComponent },
-  { path: 'news', component: NewsComponent },
   { path: 'process', component: ProcessComponent },
   { path: 'faq', component: FaqComponent },
   { path: 'storelocator', component: StorelocatorComponent },
